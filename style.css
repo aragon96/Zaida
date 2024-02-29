@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap')
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+width: 100%;
+}
+a 
+{
+    text-decoration: none;
+}
+header ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+
+}
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+h1{
+font-size: 34px;
+color:black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100;
+    margin: 10px 0 10px 0;
+    background-color:antiquewhite;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja img{
+border-radius: 50%;
+
+}
+.caja p {
+    font-size: 15px;
+}
+.presentación {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.presentación h1{
+    font-size: 35px;
+    color: black;
+
+}
+.presentación p {
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family:"Lexend", sans-serif;;
+}
+#nosotros
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe
+{
+    padding: 10px;
+    margin: 10px;
+}
